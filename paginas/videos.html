@@ -5,82 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rincón Felino</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="../imagenes/favicon.ico"">
-    <link rel=" stylesheet" href="../global.css">
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../bs_index.css">
+    <title>Document</title>
 </head>
 
-<body class="contenedor-grid">
+<body>
 
-    <header class="header-area">
-        <a href="../index.html"><img class="logo" src="../imagenes/logo.png" alt="Rincón Felino" height="100"></a>
-        <section class="header">
-            <div>
-                <h1>RINCON FELINO</h1>
+    <div id="header" class="p-5 bg-primary text-white rounded text-center">
+        <img src="../imagenes/logo.png" alt="" width="100" height="100">
+        <div>
+            <h1 class="gatito"><strong>RINCON FELINO</strong></h1>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm color1 navbar-dark">
+        <div class="container-fluid p-2">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="memes.html">Memes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="testimonios.html">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            <div class="gatito">🐈</div>
-        </section>
-    </header>
-
-    <nav class="nav-area">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="memes.html">Memes</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="testimonios.html">Testimonios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+        </div>
     </nav>
 
-
     <main class="main-area">
-        <h2 class="titulo-videos">😺VIDEOS CURIOSOS DE GATOS😺</h2>
-        <section class="videos">
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/MN4DQ_Vd0nE"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/FaUzanbWvps"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/moUT5HphXBA"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/SaOtPFuAAIc"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/TxpZZhR_3zM"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/giaqGh-cvV4"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/G3CIeu3_x3o"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/CP9Ohm80ln8"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="iframe-videos" width="560" height="315" src="https://www.youtube.com/embed/RuSNSyEopiU"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </section>
-
+        <h2 class="titulo-videos text-center m-5"><strong>😺VIDEOS CURIOSOS DE GATOS😺</strong></h2>
+        <div id="videos-" class="conteiner">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/MN4DQ_Vd0nE" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/FaUzanbWvps" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/moUT5HphXBA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/SaOtPFuAAIc" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/TxpZZhR_3zM" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/giaqGh-cvV4" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"><iframe class="iframe-videos" 
+                        src="https://www.youtube.com/embed/G3CIeu3_x3o" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/CP9Ohm80ln8" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="col-lg-4 col-sm-6 col-12"> <iframe class="iframe-videos"
+                        src="https://www.youtube.com/embed/RuSNSyEopiU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+        </div>
     </main>
 
 
-    <footer class="footer-area">
-        &copy2022 - Desarrollado por Pilar Morán
+    <footer class="text-center text-lg-start mt-4">
+        
+        <div class="p-3">
+            &copy2022 - Desarrollado por Pilar Morán
+        </div>
+     
     </footer>
 
 

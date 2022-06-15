@@ -5,87 +5,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rincón Felino</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="../imagenes/favicon.ico">
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../bs_index.css">
+    <title>Document</title>
 </head>
 
-<body class="contenedor-grid">
+<body>
 
-    <header class="header-area">
-        <a href="../index.html"><img class="logo" src="../imagenes/logo.png" alt="Rincón Felino" height="100"></a>
-        <section class="header">
-            <div>
-                <h1>RINCON FELINO</h1>
+    <div id="header" class="p-5 bg-primary text-white rounded text-center">
+        <img src="../imagenes/logo.png" alt="" width="100" height="100">
+        <div>
+            <h1 class="gatito"><strong>RINCON FELINO🐈</strong></h1>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm color1 navbar-dark">
+        <div class="container-fluid p-2">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="memes.html">Memes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="testimonios.html">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            <div class="gatito">🐈</div>
-        </section>
-    </header>
-
-    <nav class="nav-area">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="memes.html">Memes</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="testimonios.html">Testimonios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+        </div>
     </nav>
 
-    <main class="main-area">
-        <h2 class="titulo-testimonios">😺TESTIMONIOS😺</h2>
-        <section class="seccion-testimonios">
-            <div class="casos-testimonios">
-                <h3>Andrea Martínez</h3>
-                <p>Tengo dos gatos, se llevaban muy mal, pero con paciencia y cariño, han lo grado afiatarse, no pierdan
-                    la paciencia, tarde o temprano terminarán aceptándose. Saludos.</p>
+
+
+    <div class="container">
+
+        <h2 class="titulo-testimonios text-center m-5"><strong>😺TESTIMONIOS😺</strong></h2>
+
+        <div class="row gy-3">
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <div class="card-body text-center" style="background-color:#fdb863 ;">
+                        <h3 class="card-title"><strong>Andrea Martínez</strong></h3>
+                        <p class="card-text"><em>"Tengo dos gatos, se llevaban muy mal, pero con paciencia y cariño, han
+                                lo
+                                grado afiatarse, no
+                                pierdan
+                                la paciencia, tarde o temprano terminarán aceptándose. Saludos."</em></p>
+                    </div>
+                </div>
             </div>
-            <div class="casos-testimonios">
-                <h3>Julio Salazar</h3>
-                <p>Escribo para saludarlos, me encanta su página, me ha servido mucho para conocer mejor a los gatos y
-                    tiene memes muy divertidos, sigan así!!!</p>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <div class="card-body text-center" style="background-color:#fdb863 ;">
+                        <h3 class="card-title"><strong>Julio Salazar</strong></h3>
+                        <p class="card-text"><em>"Escribo para saludarlos, me encanta su página, me ha servido mucho para conocer mejor a los
+                            gatos y
+                            tiene memes muy divertidos, sigan así!!!"</em></p>
+                    </div>
+                </div>
             </div>
-            <div class="casos-testimonios">
-                <h3>Andrea Peña</h3>
-                <p>Buenas noches, primero que todo, quiero saludar a todos los seguidores de la página y segundo
-                    quisiera pedir, que agreguen información sobre las leyes de maltrato animal, es importante que las
-                    tengamos presente, gracias.</p>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <div class="card-body text-center" style="background-color:#fdb863 ;">
+                        <h3 class="card-title"><strong>Andrea Peña</strong></h3>
+                        <p class="card-text"><em>"Buenas noches, primero que todo, quiero saludar a todos los seguidores de la página y segundo
+                            quisiera pedir, que agreguen información sobre las leyes de maltrato animal, es importante que
+                            las
+                            tengamos presente, gracias."</em></p>
+                    </div>
+                </div>
             </div>
-            <div class="casos-testimonios">
-                <h3>Gloria Esparza</h3>
-                <p>Buenas tardes, un gusto poder contactarme con ustedes, disfruto mucho de este sitio, soy catlover,
-                    así que me hace feliz ver todo lo que suben, respecto a los felinos, saludos.</p>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <div class="card-body text-center" style="background-color:#fdb863 ;">
+                        <h3 class="card-title"><strong>Gloria Esparza</strong></h3>
+                        <p class="card-text"><em>"Buenas tardes, un gusto poder contactarme con ustedes, disfruto mucho de este sitio, soy
+                            catlover,
+                            así que me hace feliz ver todo lo que suben, respecto a los felinos, saludos."</em></p>
+                    </div>
+                </div>
             </div>
-            <div class="casos-testimonios">
-                <h3>Carlos Gallardo</h3>
-                <p>Hola, soy nuevo fan de esta página, tengo una gatita, llamada Lulú, es muy traviesa, es de color
-                    gris, mi hijo la ama. Muy buenos los videos, son temas muy interesantes!!!</p>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card h-100" >
+                    <div class="card-body text-center" style="background-color:#fdb863 ;">
+                        <h3 class="card-title"><strong>Carlos Gallardo</strong></h3>
+                        <p class="card-text"><em>"Hola, soy nuevo fan de esta página, tengo una gatita, llamada Lulú, es muy traviesa, es de color
+                            gris, mi hijo la ama. Muy buenos los videos, son temas muy interesantes!!!"</em></p>
+                    </div>
+                </div>
             </div>
-            <div class="casos-testimonios">
-                <h3>Maria Fernández</h3>
-                <p>Hola grupo!!!, quisiera hacer una consulta, a que edad se puede empezar a esterilizar a una
-                    gatita???..la adopté hace poco, me gustaría que me pudieran guiar, gracias.</p>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <div class="card-body text-center" style="background-color:#fdb863 ;">
+                        <h3 class="card-title"><strong>Maria Fernández</strong></h3>
+                        <p class="card-text"><em>"Hola grupo!!!, quisiera hacer una consulta, a que edad se puede empezar a esterilizar a una
+                            gatita???..la adopté hace poco, me gustaría que me pudieran guiar, gracias."</em></p>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <section class="section-form">
-                <form class="form_testimonio" action="index.html">
-                    <label for="textarea">Cuéntanos tu experiencia</label>
-                    <textarea class="textarea" name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
-                </form>
-            </section>
+          <div class="row mt-5">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+          </div>
+
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Cuéntanos tu experiencia</label>
+          </div>
 
 
-        </section>
+    </div>
 
 
-
-    </main>
-
-    <footer class="footer-area">
-        &copy2022 - Desarrollado por Pilar Morán
+    <footer class="text-center text-lg-start mt-4">
+        
+        <div class="p-3">
+            &copy2022 - Desarrollado por Pilar Morán
+        </div>
+        
     </footer>
+
 
 </body>
 
