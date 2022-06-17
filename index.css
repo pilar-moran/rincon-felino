@@ -1,3 +1,10 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -8,9 +15,8 @@ body {
   background-image: url(imagenes/fondo_negro.jpg);
 }
 
-
 .nav-link:hover {
- background-color: #e47b02 !important;
+  background-color: #e47b02 !important;
 }
 
 .color1 {
@@ -38,29 +44,29 @@ body {
   transform: translatex(-50%);
 }
 
+footer {
+  background-color: #c5563a;
+}
+
+/*-----------------------------------------------------------------------PAGINA INDEX---------------------------------------------------------------------*/
+
 .color-index {
   background-color: #c57966;
 }
+.card-index {
+  border: 3px solid #af3c25;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-index:hover {
+  transform: scale(1.05, 1.05);
+}
+
+/*-----------------------------------------------------------------------PAGINA NOTICIAS------------------------------------------------------------------*/
 
 #body-noticias {
   background-color: #e4d4c2;
   text-align: justify;
-}
-
-.imagen-meme {
-  width: 100%;
-  margin-bottom: 30px;
-  border: 3px solid #af3c25;
-  box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
-}
-/*
-.iframe-videos {
-  width: 100%;
-  height: 40vh;
-}
-*/
-footer {
-  background-color: #c5563a;
 }
 
 .noticias {
@@ -69,15 +75,42 @@ footer {
   background-image: linear-gradient(to bottom, #cd7f6c, #e4d4c2);
 }
 
+/*------------------------------------------------------------------------ PAGINA MEMES------------------------------------------------------------------*/
+
+.imagen-meme {
+  width: 100%;
+  margin-bottom: 30px;
+  border: 3px solid #af3c25;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.imagen-meme:hover {
+  transform: scale(1.05, 1.05);
+}
+
+/*-----------------------------------------------------------------------PAGINA TESTIMONIOS--------------------------------------------------------------*/
+
 .tarjeta-testimonio {
   border: 3px solid #af3c25;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
 }
 
+.tarjeta-testimonio:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.body-testimonio {
+  background-image: linear-gradient(to bottom, #d2998b, #e0a965);
+}
+
+/*-----------------------------------------------------------------------PAGINA CONTACTO------------------------------------------------------------------*/
+
 .imagen-following_me {
   border: 3px solid #af3c25;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 480px) {
   .navbar-nav.navbar-center {
@@ -85,5 +118,4 @@ footer {
     left: unset;
     transform: unset;
   }
-
 }
