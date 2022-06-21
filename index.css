@@ -15,6 +15,11 @@ body {
   background-image: url(imagenes/fondo_negro.jpg);
 }
 
+.navbar {
+  background: #c5563a;
+
+}
+
 .nav-link:hover {
   background-color: #e47b02 !important;
 }
@@ -103,6 +108,11 @@ footer {
   background-image: linear-gradient(to bottom, #d2998b, #e0a965);
 }
 
+.boton-enviar-testimonio:hover{
+  transform: scale(1.05, 1.05);
+}
+
+
 /*-----------------------------------------------------------------------PAGINA CONTACTO------------------------------------------------------------------*/
 
 .imagen-following_me {
@@ -110,12 +120,34 @@ footer {
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
 }
 
+.boton-enviar-contacto:hover{
+  transform: scale(1.05, 1.05);
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .navbar-nav.navbar-center {
     position: unset;
     left: unset;
     transform: unset;
   }
+
+  .nav-link:hover {
+    background-color: transparent !important;
+    color: #fdde00 !important;
+  }
+  .card-index:hover {
+    transform: unset;
+
+  }.imagen-meme:hover {
+    transform: none;
+  }
+
+  .tarjeta-testimonio:hover {
+    transform: none;
+  }
+  
+
 }
+
