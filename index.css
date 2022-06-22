@@ -17,7 +17,6 @@ body {
 
 .navbar {
   background: #c5563a;
-
 }
 
 .nav-link:hover {
@@ -108,10 +107,9 @@ footer {
   background-image: linear-gradient(to bottom, #d2998b, #e0a965);
 }
 
-.boton-enviar-testimonio:hover{
+.boton-enviar-testimonio:hover {
   transform: scale(1.05, 1.05);
 }
-
 
 /*-----------------------------------------------------------------------PAGINA CONTACTO------------------------------------------------------------------*/
 
@@ -120,7 +118,7 @@ footer {
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
 }
 
-.boton-enviar-contacto:hover{
+.boton-enviar-contacto:hover {
   transform: scale(1.05, 1.05);
 }
 
@@ -139,15 +137,12 @@ footer {
   }
   .card-index:hover {
     transform: unset;
-
-  }.imagen-meme:hover {
+  }
+  .imagen-meme:hover {
     transform: none;
   }
 
   .tarjeta-testimonio:hover {
     transform: none;
   }
-  
-
 }
-

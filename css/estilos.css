@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-image: url(../imagenes/fondo_beige.jpg);
+}
+body #header {
+  background-image: url(../imagenes/fondo_negro.jpg);
+}
+body .navbar {
+  background: #c5563a;
+}
+body .navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+body .navbar-nav li a:hover {
+  background-color: #e47b02 !important;
+}
+@media only screen and (max-width: 576px) {
+  body .navbar-nav li a:hover {
+    background-color: transparent !important;
+    color: #fdde00 !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body .navbar-nav {
+    position: unset;
+    left: unset;
+    transform: unset;
+  }
+}
+body .card-index {
+  border: 3px solid #af3c25;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
+}
+body .card-index:hover {
+  transform: scale(1.05, 1.05);
+}
+body .card-index div {
+  background-color: #c57966;
+}
+@media only screen and (max-width: 576px) {
+  body .card-index:hover {
+    transform: unset;
+  }
+}
+body footer {
+  background-color: #c5563a;
+}
+
+/*# sourceMappingURL=estilos.css.map */

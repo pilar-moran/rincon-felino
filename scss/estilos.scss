@@ -1,0 +1,73 @@
+
+@import "reseteo";
+@import "variables";
+@import "responsive";
+
+
+
+body {
+    background-image: $fondo-body;
+    #header {
+        background-image: $fondo-header;
+    }
+
+
+    .navbar {
+        background: $color-principal;
+    }
+
+
+    .navbar-nav {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+        li {
+            a {
+                &:hover {
+                    background-color: $background_nav-link;
+                    @include small {
+                        background-color: transparent !important;
+                        color: $color_nav-link;
+                    }
+                }               
+            }
+        }
+        @include small {
+            position: unset;
+            left: unset;
+            transform: unset;
+        }
+    }
+
+
+
+    .card-index {
+        border: 3px solid $color-bordes-cards;
+        box-shadow: $box-shadow-cards;
+        &:hover {
+            transform: scale(1.05, 1.05);
+        }
+        img {}
+        div {
+            background-color: $color-cards-destacados;
+            p {}
+            a {}
+        }
+        @include small {
+            &:hover {
+                transform: unset;
+            }
+        }
+    }
+
+
+footer {
+background-color: $background-footer;
+}
+
+
+}
+
+
+
+
