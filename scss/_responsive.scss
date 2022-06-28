@@ -1,4 +1,6 @@
 
+//******************************* Mixin ************************************
+
 @mixin small {
     @media only screen and (max-width: 576px) {
       @content;
