@@ -18,6 +18,26 @@ body {
   background-image: url(../imagenes/fondo_negro.jpg);
 }
 
+.gatito {
+  animation-name: gatito;
+  animation-duration: 3s;
+  font-size: xx-large;
+}
+
+.gatito {
+  animation-name: gatito-u8gykon;
+  animation-duration: 3s;
+  font-size: xx-large;
+}
+@keyframes gatito-u8gykon {
+  from {
+    transform: translateX(700px);
+  }
+  to {
+    transform: translateX(0p);
+  }
+}
+
 .navbar {
   background: #c5563a;
 }

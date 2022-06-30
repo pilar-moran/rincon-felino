@@ -12,6 +12,32 @@ body {
     background-image: $fondo-header;
 }
 
+.gatito {
+    animation-name: gatito;
+    animation-duration: 3s;
+    font-size: xx-large;
+  }
+
+  @mixin gatito-animation ($duration) {
+    $name: gatito-#{unique-id()};
+  
+    @keyframes #{$name} {
+      @content;
+    }
+  
+    animation-name: $name;
+    animation-duration: $duration;
+    font-size: xx-large;
+  }
+  
+  .gatito {
+    @include gatito-animation(3s) {
+      from { transform: translateX(700px)}
+      to { transform: translateX(0p)}
+    }
+  }
+  
+
 
 .navbar {
     background: $color-principal;
@@ -96,19 +122,19 @@ body {
         background-color: #cf988a !important;
     }
 }
+
 //******************************************************************************
 
 
 
 // ******************************** Maps ***************************************
 
-$colores-botones: (
-    ver_noticias: rgb(32, 31, 31),
-    ver_memes:    rgb(70, 68, 68),
-    ver_videos:   rgb(103, 100, 100)
-);
+$colores-botones: (ver_noticias: rgb(32, 31, 31),
+    ver_memes: rgb(70, 68, 68),
+    ver_videos: rgb(103, 100, 100));
 
-@each $nombre, $valor in $colores-botones {
+@each $nombre,
+$valor in $colores-botones {
     .boton-#{$nombre} {
         background-color: $valor;
     }
