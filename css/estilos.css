@@ -25,11 +25,11 @@ body {
 }
 
 .gatito {
-  animation-name: gatito-u8gykon;
+  animation-name: gatito-ugktbse;
   animation-duration: 3s;
   font-size: xx-large;
 }
-@keyframes gatito-u8gykon {
+@keyframes gatito-ugktbse {
   from {
     transform: translateX(700px);
   }
@@ -92,15 +92,15 @@ body {
   background-color: #cf988a !important;
 }
 
-.boton-ver_noticias {
+.boton-a {
   background-color: rgb(32, 31, 31);
 }
 
-.boton-ver_memes {
+.boton-b {
   background-color: rgb(70, 68, 68);
 }
 
-.boton-ver_videos {
+.boton-c {
   background-color: rgb(103, 100, 100);
 }
 

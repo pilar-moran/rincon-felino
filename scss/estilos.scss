@@ -129,9 +129,9 @@ body {
 
 // ******************************** Maps ***************************************
 
-$colores-botones: (ver_noticias: rgb(32, 31, 31),
-    ver_memes: rgb(70, 68, 68),
-    ver_videos: rgb(103, 100, 100));
+$colores-botones: (a: rgb(32, 31, 31),
+    b: rgb(70, 68, 68),
+    c: rgb(103, 100, 100));
 
 @each $nombre,
 $valor in $colores-botones {

@@ -118,6 +118,10 @@ footer {
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
 }
 
+.imagen-following_me:hover {
+  transform: scale(1.05, 1.05);
+}
+
 .boton-enviar-contacto:hover {
   transform: scale(1.05, 1.05);
 }
@@ -135,14 +139,25 @@ footer {
     background-color: transparent !important;
     color: #fdde00 !important;
   }
+
   .card-index:hover {
     transform: unset;
   }
+
+  .titulo-memes {
+    font-size:20px;
+  }
+
+
   .imagen-meme:hover {
     transform: none;
   }
 
   .tarjeta-testimonio:hover {
     transform: none;
+  }
+
+  .imagen-following_me:hover {
+    transform: unset;
   }
 }
