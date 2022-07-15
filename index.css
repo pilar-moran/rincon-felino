@@ -144,11 +144,6 @@ footer {
     transform: unset;
   }
 
-  .titulo-memes {
-    font-size:20px;
-  }
-
-
   .imagen-meme:hover {
     transform: none;
   }
@@ -156,7 +151,7 @@ footer {
   .tarjeta-testimonio:hover {
     transform: none;
   }
-
+  
   .imagen-following_me:hover {
     transform: unset;
   }
